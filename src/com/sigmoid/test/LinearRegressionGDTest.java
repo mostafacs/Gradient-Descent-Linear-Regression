@@ -8,7 +8,7 @@ import com.sigmoid.gradientdescent.LinearRegressionGradientDescent;
 public class LinearRegressionGDTest {
 
 	public static void main(String[] args) {
-		
+		// visualization image attached.
 		BigDecimal [][] dataset = {{new BigDecimal(0)},
 				{new BigDecimal(1)},
 				{new BigDecimal(2)},

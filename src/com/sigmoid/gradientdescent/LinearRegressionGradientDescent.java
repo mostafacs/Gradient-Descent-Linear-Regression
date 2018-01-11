@@ -34,6 +34,7 @@ public class LinearRegressionGradientDescent extends GradientDescent {
 	
 	public LinearRegressionGradientDescent(BigDecimal[][] dataset, BigDecimal[] target, BigDecimal learningRate,int maxItr) {
 		super(dataset[0].length, maxItr);
+		// Change dataset structure to support base parameter.
 		this.dataset = new BigDecimal[dataset.length][dataset[0].length+1];
 		
 		for(int i=0; i< dataset.length; i++) {
